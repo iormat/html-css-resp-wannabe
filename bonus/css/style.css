@@ -121,9 +121,14 @@ body {
     margin-bottom: 30px;
   }
 
+  .left h3, .central h3, .right h3 {
+  }
+
   #steps img {
-    width: 60px;
-    height: 60px;
+    width: 20%;
+    height: auto;
+    min-width: 130px;
+    min-height: 130px;
   }
 
   /* here starts the id why section */
