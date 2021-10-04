@@ -94,37 +94,36 @@ img {
 
   #lezioni .row>.left,
   #lezioni .row>.right {
-  min-width: 250px;
-  margin-bottom: 40px;
-  width: 100%;
-  margin: 20px auto;
-
-}
+    min-width: 250px;
+    margin-bottom: 40px;
+    width: 100%;
+    margin: 20px auto;
+  }
 
   /* here starts the id steps section */
   #steps .row>.left,
   #steps .row>.central,
   #steps .row>.right {
-  width: 100%;
-  margin-bottom: 30px;
-}
+    width: 100%;
+    margin-bottom: 30px;
+  }
 
   #steps img {
-  width: 60px;
-  height: 60px;
-}
+    width: 60px;
+    height: 60px;
+  }
 
   /* here starts the id why section */
-#why img {
-  width: 40px;
-  height: 40px;
-}  
+  #why img {
+    width: 40px;
+    height: 40px;
+  }  
 
-#why .row>.first,
-#why .row>.second,
-#why .row>.third {
-  width: 100%;
-  margin-top: 30px;
-}
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    width: 100%;
+    margin-top: 30px;
+  }
 
 }
