@@ -74,6 +74,72 @@ img {
 
 /* QUI INIZIA LA SEZIONE MEDIA QUERY */
 
+/* layout for tablets */
+@media screen and (max-width: 1200px) {
+  /* here starts the id lezioni section */
+body {
+  font-size: 20px;
+}
+
+  #lezioni.container {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .row {
+    width: 100%;
+    margin-top: 50px;
+    font-size: 1.3rem;
+    vertical-align: middle;
+  }
+
+  #lezioni .row img {
+    width: 50%;
+    height: auto;
+    min-width: 150px;
+  }
+
+  #lezioni .row>.left img {
+    width: 30%;
+    height: auto;
+    min-width: 100px;
+  }
+
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    min-width: 150px;
+    margin-bottom: 40px;
+    width: calc(50% - 20px);
+    margin: 20px 10px;
+  }
+
+  /* here starts the id steps section */
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  #steps img {
+    width: 60px;
+    height: 60px;
+  }
+
+  /* here starts the id why section */
+  #why img {
+    width: 40px;
+    height: 40px;
+  }  
+
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    width: 100%;
+    margin-top: 30px;
+  }
+}
+
 /* layout for mobile */
 @media screen and (max-width: 420px) {
   /* here starts the id lezioni section */
@@ -125,5 +191,7 @@ img {
     width: 100%;
     margin-top: 30px;
   }
-
 }
+
+
+
